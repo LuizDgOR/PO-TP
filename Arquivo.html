@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <head>
+    <link rel="stylesheet" type="text/css" href="ArquivoCSS.css">
+   
+    <title>Maximizar o lucro </title>
+    <style>
+      form {
+        padding: 20px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      input[type="text"] {
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%;
+      }
+      input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      #result {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1>Maximizar o lucro </h1>
+   
+    <form id="form">
+      <label for="area_disponivel">area disponivel(em metros quadrados):</label>
+      <input type="text" id="area_disponivel" required>
+      <br>
+      <label for="agua_disponivel">agua disponivel (em litros):</label>
+      <input type="text" id="agua_disponivel" required>
+      <br>
+      <label for="tempo_disponivel">tempo disponivel (em horas):</label>
+      <input type="text" id="tempo_disponivel" required>
+      <br>
+      <label for="custo_muda_feijao">custo muda feijao:</label>
+      <input type="text" id="custo_muda_feijao" required>
+      <br>
+      <label for="custo_muda_abobrinha">custo muda abobrinha:</label>
+      <input type="text" id="custo_muda_abobrinha" required>
+      <br>
+      <label for="custo_muda_mandioca">custo muda mandioca:</label>
+      <input type="text" id="custo_muda_mandioca" required>
+      <br>
+      <label for="custo_muda_milho">custo muda milho:</label>
+      <input type="text" id="custo_muda_milho" required>
+      <br>
+      <label for="custo_muda_quiabo">custo muda quiabo:</label>
+      <input type="text" id="custo_muda_quiabo" required>
+      <br>
+      <input type="submit" value="Submit">
+      <div id="result"></div>
+      <script src="Arquivo.js"></script>
+    </body>
